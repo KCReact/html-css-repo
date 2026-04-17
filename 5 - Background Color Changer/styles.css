@@ -1,0 +1,33 @@
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  margin: 5px;
+}
+
+.reset {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin: 5px;
+}
