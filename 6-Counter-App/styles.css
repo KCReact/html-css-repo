@@ -54,6 +54,10 @@ body {
   transform: scale(0.95);
 }
 
+.btn {
+  touch-action: manipulation;
+}
+
 .plus {
   background-color: #2e7d32;
 }
