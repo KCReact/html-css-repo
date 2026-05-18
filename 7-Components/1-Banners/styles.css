@@ -1,0 +1,76 @@
+/* 
+
+BANNER
+- colored background
+- centered text
+- bold keyword
+- link with arrow
+- hover effect on link
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #222;
+}
+
+.banner {
+  background-color: #0f172a;
+  padding: 16px 24px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.banner-text {
+  color: #facc15;
+  font-size: 16px;
+}
+
+.banner-text strong {
+  text-transform: uppercase;
+  color: orangered;
+  letter-spacing: 0.5px;
+}
+
+.banner-link:link,
+.banner-link:visited {
+  color: #facc15;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.banner-link:active,
+.banner-link:hover {
+  color: #fde68a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.banner + .banner {
+  margin-top: 12px;
+}
+
+.banner-offer {
+  background-color: #7f1d1d;
+}
+
+.banner-offer .banner-text strong {
+  color: #fecaca;
+}
+
+.banner-offer .banner-link:link,
+.banner-offer .banner-link:visited {
+  color: #fecaca;
+}
+
+.banner-offer .banner-link:hover,
+.banner-offer .banner-link:active {
+  color: #fee2e2;
+}
