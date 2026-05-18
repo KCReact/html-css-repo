@@ -12,3 +12,6 @@ background-color: #dbeafe; /* soft yellow */
 
 background-color: #f3e8ff; /* soft purple */
   color: #6b21a8;
+
+background-color: #f3f4f6; /* Neutral colour */
+  color: #374151;
